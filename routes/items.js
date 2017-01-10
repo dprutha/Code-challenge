@@ -27,7 +27,8 @@ function getItems(req, res){
         var url = 'http://api.walmartlabs.com/v1/items/'+ items +'?format=json&apiKey=kjybrqfdgp3u4yv2qzcnjndj';
         request(url).then(function (data) {
             console.log(data);
-            if(data.indexOf(query) > -1)
+            var description = data.shortDescription;
+            if(description.indexOf(query) > -1)
             {
                 itemIds.push(items);
             }
