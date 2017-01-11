@@ -11,7 +11,7 @@ The ideal approach was to use a map to maintain item ids and descriptions, or to
 I could not complete it due to time crunch, hence, first went ahead with the rudmentary approach.
 
 
-To run the app,
-> cd Code-challenge
-> npm install
+To run the app, <br/>
+> cd Code-challenge <br/>
+> npm install <br/>
 > npm run    and    go to localhost:8000/getItems/<searchQuery>
