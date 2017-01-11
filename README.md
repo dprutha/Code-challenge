@@ -9,3 +9,9 @@ The query is looked up in the 'shotDescription field'. Whenever there is a match
 
 The ideal approach was to use a map to maintain item ids and descriptions, or to add the item detals in the database.
 I could not complete it due to time crunch, hence, first went ahead with the rudmentary approach.
+
+
+To run the app,
+> cd Code-challenge
+> npm install
+> npm run    and    go to localhost:8000/getItems/<searchQuery>
