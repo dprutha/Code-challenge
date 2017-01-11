@@ -12,6 +12,6 @@ I could not complete it due to time crunch, hence, first went ahead with the rud
 
 
 To run the app, <br/>
-> cd Code-challenge <br/>
-> npm install <br/>
-> npm run    and    go to localhost:8000/getItems/<searchQuery>
+\> cd Code-challenge <br/>
+\> npm install <br/>
+\> npm run    and    go to localhost:8000/getItems/\<searchQuery\>
